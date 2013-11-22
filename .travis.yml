@@ -1,6 +1,6 @@
 language: scala
 script:
-  - sbt ++$TRAVIS_SCALA_VERSION clean test
+  - sbt ++$SHIPPABLE_SCALA_VERSION clean test
 scala:
   - 2.10.3
 jdk:
